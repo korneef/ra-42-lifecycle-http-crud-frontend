@@ -1,0 +1,12 @@
+@import url('./atoms/Button/Button.css');
+@import url('./atoms/Header/Header.css');
+@import url('./atoms/Message/Message.css');
+
+@import url('./molecules/CrudHeader/CrudHeader.css');
+@import url('./molecules/CrudMessage/CrudMessage.css');
+
+
+@import url('./organisms/CrudMessagesContainer/CrudMessagesContainer.css');
+@import url('./organisms/CrudSubmitForm/CrudSubmitForm.css');
+
+@import url('./pages/CrudPage/CrudPage.css');

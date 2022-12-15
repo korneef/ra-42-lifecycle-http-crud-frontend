@@ -1,10 +1,10 @@
 import './App.css';
-import Card from './components/Card';
-import logo from './logo.svg'
+import { CrudPage } from './components/index';
 
 function App() {
   return (
     <div className="App">
+      <CrudPage/>
     </div>
   );
 }

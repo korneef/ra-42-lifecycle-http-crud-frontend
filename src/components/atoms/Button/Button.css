@@ -1,0 +1,39 @@
+.button {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 20px;
+}
+
+.button:hover {
+  background-color: #7ecd8f;
+}
+
+.button:focus, .button:active {
+  outline: none;
+}
+
+.crud-header__button {
+  background-image: url('../../../icons/refresh.svg');
+  margin-left: 10px;
+}
+
+.crud-message__button {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-image: url('../../../icons/delete.svg');
+}
+
+.crud-message__button:hover {
+  background-color: #ff7878;
+}
+
+.crud__new-message-form-button__button {
+  background-image: url('../../../icons/send.svg');
+}
